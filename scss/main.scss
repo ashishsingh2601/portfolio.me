@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// sass variables: These doesn't compile to CSS variable, rather they compile to the actual value. 
+$primary-color: #272727;
+$text-color: #fff;
+
+//Using Maps: Maps are list of key value pairs
+$font-weights: (
+    "regular": 300,
+    "medium": 500,
+    "bold": 900
+);
+
+body{
+    background-color: $primary-color;
+    color: $text-color;
+    font-weight: map-get($font-weights , bold);
+}
+
+//Nesting
+
+
