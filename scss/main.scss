@@ -6,7 +6,7 @@
 
 // sass variables: These doesn't compile to CSS variable, rather they compile to the actual value. 
 $primary-color: #272727;
-$text-color: #fff;
+$text-color: #ccc;
 
 //Using Maps: Maps are list of key value pairs
 $font-weights: (
@@ -19,30 +19,43 @@ body{
     background-color: $primary-color;
     color: $text-color;
     font-weight: map-get($font-weights , bold);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 //Nesting
 .header{
-    margin: 200px 10px 90px ;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    // margin: 200px 10px 90px ;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     
-        &:hover{
-            //color: #f45;
-            transform: rotate(10deg);
-            font-size: 150%;
-        }
+    
+   
+    
+    
+
+    
+        // &:hover{
+        //     //color: #f45;
+        //     transform: rotate(10deg);
+        //     font-size: 150%;
+        // }
     span{
         color: rgb(184, 184, 28);
         
     }
-    h3{
-        padding: 30px 10px 10px;
+    h2{
+        padding-top: 9px;
+        margin-left: 0;
     }
     h1{
         font-size: 70px;
     }
    
 }
+
+
 
 
