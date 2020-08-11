@@ -37,6 +37,42 @@ span{
     font-size: 5rem;
     
 }
+.about{
+    color: #272727;
+    background-color: #ccc;
+    padding: 30px 0px;
+}
+.about h1{
+    font-size: 5rem;
+    text-align: center;
+   
+}
+
+.about p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1rem 6rem 4rem;
+    color: #777;
+}
+.education h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 50px;
+}
+.edu-content{
+    text-align: center;
+    
+}
+.edu-content h3{
+    color: rgb(184, 184, 28);
+    font-size: 2rem;
+    margin: 3rem 3rem 0.9rem;
+}
+.edu-content h4{
+    font-size: 1.5rem;
+    padding: 0.6rem;
+}
 
 /* Cursor at end of type writer */
 .txt-type > .txt {
