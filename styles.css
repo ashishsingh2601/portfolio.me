@@ -78,6 +78,24 @@ span{
 .txt-type > .txt {
     border-right: 0.2rem solid #777;
 }
+footer{
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(56, 54, 54);
+    letter-spacing: 0.3rem;
+}
+footer .footer-icons{
+    padding: 9px 15px;
+    font-size: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: #777;
+}
 
 @media(min-width: 1200){
     h1{
