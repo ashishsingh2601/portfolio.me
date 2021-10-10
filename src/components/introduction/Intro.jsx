@@ -18,33 +18,7 @@ const Intro = () => {
                             <div className="i-title-item">Open Source Contributor</div>
                         </div>
                     </div>
-                    {/* <p className="i-desc" id="desc">
-                        Final year Computer Science student who's
-                        <div className="i-desc-type">
-                            <Typewriter
-                                onInit = {(type)=>{
-                                    type
-                                    .typeString("Hardworking")
-                                    .pauseFor(1200)
-                                    .deleteAll()
-                                    .typeString("Proactive")
-                                    .pauseFor(1200)
-                                    .deleteAll()
-                                    .typeString("Self-Starter")
-                                    .pauseFor(1200)
-                                    .deleteAll()
-                                    .typeString("Team Player")
-                                    .pauseFor(1200)
-                                    .deleteAll()
-                                    .typeString("Loves Challenges")
-                                    .pauseFor(1200)
-                                    .deleteAll()
-                                    .start()  
-                                }}
-                            />
-                        </div>
-                    </p> */}
-                    <svg
+        <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
