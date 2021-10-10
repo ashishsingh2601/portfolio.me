@@ -1,0 +1,10 @@
+.e{
+    display: flex;
+    height: 100vh;
+}
+.e-left{
+    flex: 1;
+}
+.e-right{
+    flex: 1;
+}
