@@ -1,0 +1,23 @@
+.pl{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.pl-texts{
+    width: 69%;
+}
+#title-and{
+    font-size: 3rem;
+    color: #ffd000;
+}
+.pl-desc{
+    margin: 20px 0px;
+}
+.pl-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
