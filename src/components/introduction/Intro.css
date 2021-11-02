@@ -97,3 +97,9 @@
     left: 21rem;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px){
+    .i{
+        flex-direction: column;
+    }
+}
